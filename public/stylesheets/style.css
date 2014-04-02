@@ -1,0 +1,62 @@
+
+
+.navbar-header{
+  margin-left:5px;
+  width: 100;
+}
+
+.form-group {
+  width: 45%;
+  margin-left: 40px;
+}
+
+form button {
+  margin-left: 40px;
+
+  }
+ .navbar-default {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      margin: 0 auto;
+      margin-bottom: -180px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+    }
+}
+}
+}
+
+
+.navbar-brand {
+	padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+}
+
+
+.signIn-button {
+	float:left; 
+	margin-right:10px
+}
+
+ /* Carousel base class */
+
+/* Since positioning the image, we need to help out the caption */
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 550px;
+  background-color:#555;
+}
+.carousel img {
+  position: absolute;
+  top: 0;
+  margin: 0 auto;
+  min-height: 500px;
+  min-width: 100%;
+}
+
+
+
